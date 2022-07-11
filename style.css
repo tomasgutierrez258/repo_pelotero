@@ -1,3 +1,51 @@
-.header{
- height: 50px;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap");
+.header {
+  height: 50px;
 }
+#main {
+  height: calc(100vh - 50px);
+  background-image: url("img/foto_main.jpg");
+  background-size: cover;
+}
+.main-content {
+  max-width: 1300px;
+  height: 100%;
+  margin: 0 auto;
+}
+.main-content-info {
+  display: block;
+  margin-left: 50px;
+}
+.main-content-info img {
+  margin-top: 60px;
+}
+.main-content-info h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-size: 700;
+  color: white;
+}
+
+.main-content-info p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+  margin: 0;
+}
+.main-content-info button {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  width: 212px;
+  height: 64px;
+  font-size: 22px;
+  color: #2c2b2a;
+  background-color: #ffd200;
+  border-radius: 20px;
+  border: none;
+  margin-top: 10px;
+}
+/* #main img {
+  width: 100%;
+} */
