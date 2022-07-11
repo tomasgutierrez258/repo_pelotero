@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap");
 .header {
   display: flex;
   justify-content: space-around;
 }
-.header-navegacion ul{
-margin: 0px;
-padding: 0px;
-list-style: none;
-margin-right: 200px;
+.header-navegacion ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  margin-right: 200px;
 }
-.header-navegacion ul li{
+.header-navegacion ul li {
   display: inline-block;
 }
-.header-navegacion ul li a{
+.header-navegacion ul li a {
   display: block;
   margin-right: 40px;
   padding-top: 15px;
@@ -24,13 +24,13 @@ margin-right: 200px;
   justify-content: space-between;
   font-size: 16px;
 }
-.header-barra{
+.header-barra {
   background: #2c2b2a;
   padding: 5px;
 }
-.logo-header{
-display: flex;
-margin-right: 480px;
+.logo-header {
+  display: flex;
+  margin-right: 480px;
 }
 #main {
   height: calc(100vh - 50px);
@@ -78,28 +78,28 @@ margin-right: 480px;
 /* #main img {
   width: 100%;
 } */
-#nosotros{
+#nosotros {
   height: calc(100vh - 50px);
-  background-color: #FFD200;
-}
-.nosotros-content h1{
-  text-align: center;
-  font-family:"robot Slab";
-  padding-top: 15px;
-  font-size: 35px;
-  color: #2c2b2a;
+  background-color: #ffd200;
 }
 
-.nosotros-content p{
+.nosotros-content h1 {
+  text-align: center;
+  font-family: "robot Slab";
+  padding-top: 100px;
+  font-size: 35px;
+  color: #2c2b2a;
+  margin-bottom: 30px;
+}
+
+.nosotros-content p {
   text-align: center;
   background-image: url(img/cartel_inicio.png);
   background-size: cover;
   width: 600px;
   height: 200px;
-  margin-left: 300px;
-  margin-top: 20px;
-  color: white;
+  margin: 0 auto;
 }
-.text-nosotros{
+.text-nosotros {
   padding-top: 40px;
 }
