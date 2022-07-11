@@ -1,7 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
 .header {
-  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.header-navegacion ul{
+margin: 0px;
+padding: 0px;
+list-style: none;
+margin-right: 200px;
+}
+.header-navegacion ul li{
+  display: inline-block;
+}
+.header-navegacion ul li a{
+  display: block;
+  margin-right: 40px;
+  padding-top: 15px;
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.header-barra{
+  background: #2c2b2a;
+  padding: 5px;
+}
+.logo-header{
+display: flex;
+margin-right: 480px;
 }
 #main {
   height: calc(100vh - 50px);
@@ -49,3 +78,28 @@
 /* #main img {
   width: 100%;
 } */
+#nosotros{
+  height: calc(100vh - 50px);
+  background-color: #FFD200;
+}
+.nosotros-content h1{
+  text-align: center;
+  font-family:"robot Slab";
+  padding-top: 15px;
+  font-size: 35px;
+  color: #2c2b2a;
+}
+
+.nosotros-content p{
+  text-align: center;
+  background-image: url(img/cartel_inicio.png);
+  background-size: cover;
+  width: 600px;
+  height: 200px;
+  margin-left: 300px;
+  margin-top: 20px;
+  color: white;
+}
+.text-nosotros{
+  padding-top: 40px;
+}
