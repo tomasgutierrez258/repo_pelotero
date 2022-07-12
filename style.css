@@ -86,7 +86,7 @@
 .nosotros-content h1 {
   text-align: center;
   font-family: "robot Slab";
-  padding-top: 100px;
+  padding-top: 50px;
   font-size: 35px;
   color: #2c2b2a;
   margin-bottom: 30px;
@@ -102,4 +102,29 @@
 }
 .text-nosotros {
   padding-top: 40px;
+}
+.icon-nosotros  {
+  width: 50px;
+  padding-top: 40px;
+  margin-left: 170px;
+  justify-content: center;
+}
+.parrafo-nosotros{
+  display: inline-flex;
+  
+}
+p.parrafo5 {
+  margin-left:90px ;
+}
+p.parrafo4 {
+margin-left:100px ;
+}
+p.parrafo3 {
+  margin-left:130px ;
+}
+p.parrafo2 {
+  margin-left:130px ;
+}
+p.parrafo1{
+  margin-left:130px ;
 }
