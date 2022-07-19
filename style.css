@@ -128,3 +128,21 @@ p.parrafo2 {
 p.parrafo1{
   margin-left:130px ;
 }
+
+
+
+.pases-horarios{
+  background: #00AFA5;
+ 
+}
+.pases-horarios .pases_4{
+  font-family: "Roboto", sans-serif;
+}
+.pases-horarios .pases_3{
+  font-family: "Roboto Condensed", sans-serif;
+
+}
+.content-pases{
+display: block;
+}
+
