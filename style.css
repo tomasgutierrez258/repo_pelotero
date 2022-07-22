@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap");
+
 .header {
   display: flex;
   justify-content: space-around;
@@ -75,14 +76,16 @@
   border: none;
   margin-top: 10px;
 }
-/* #main img {
-  width: 100%;
-} */
+
+
+
 #nosotros {
   height: calc(100vh - 50px);
   background-color: #ffd200;
+  
+  height: 100%;
+  
 }
-
 .nosotros-content h1 {
   text-align: center;
   font-family: "robot Slab";
@@ -96,37 +99,62 @@
   text-align: center;
   background-image: url(img/cartel_inicio.png);
   background-size: cover;
-  width: 600px;
-  height: 200px;
+  width: 50%;
+  height: 210px;
+  margin: 0 auto;
+  
+}
+.nosotros-content{
+  max-width: 1300px;
+  height: 100%;
   margin: 0 auto;
 }
 .text-nosotros {
   padding-top: 40px;
+  width: 50%;
+  margin: 0 auto;
+}
+.img-icon{
+  max-width: 1300px;
+  height: 100%;
+}
+.icon{
+  max-width: 1300px;
+  height: 100%;
+  
 }
 .icon-nosotros  {
   width: 50px;
   padding-top: 40px;
   margin-left: 170px;
   justify-content: center;
+  
 }
 .parrafo-nosotros{
   display: inline-flex;
-  
+  max-width: 1300px;
+  height: 100%;
+  margin: 0 auto;
 }
 p.parrafo5 {
   margin-left:90px ;
+  max-width: 1300px;
 }
 p.parrafo4 {
 margin-left:100px ;
+max-width: 1300px;
 }
 p.parrafo3 {
   margin-left:130px ;
+  max-width: 1300px;
 }
 p.parrafo2 {
   margin-left:130px ;
+  max-width: 1300px;
 }
 p.parrafo1{
   margin-left:130px ;
+  max-width: 1300px;
 }
 
 
@@ -137,6 +165,13 @@ p.parrafo1{
   background: #00AFA5;
  
 }
+.pases-horarios h1 {
+  margin-left: 150px;
+}
+.pases-horarios h2{
+  margin-left: 150px;
+  margin-top: 30px;
+}
 .pases-horarios .pases_4{
   font-family: "Roboto", sans-serif;
   margin-left: 150px;
@@ -144,6 +179,39 @@ p.parrafo1{
 .pases-horarios .pases_3{
   font-family: "Roboto Condensed", sans-serif;
   margin-left: 150px;
+}
+.pases-img button{
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 200;
+  width: 230px;
+  height: 64px;
+  font-size: 22px;
+  color: #F8F1C5;
+  background-color: #9D1980;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  margin-left: 160px;
+}
+#servicios{
+  background: #00AFA5;
+  
+}
+#servicios img {
+ padding-top: 30px;
+ 
+}
+.servicios-content-info h1{
+  margin-left: 150px;
+  color: #F8F1C5;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+}
+.servicios-content-info h3{
+  margin-left: 150px;
+  color: #F8F1C5;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
 }
 
 
