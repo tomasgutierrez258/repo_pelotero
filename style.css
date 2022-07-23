@@ -82,9 +82,10 @@
 #nosotros {
   height: calc(100vh - 50px);
   background-color: #ffd200;
-  
   height: 100%;
-  
+  max-width: 1300px;
+  height: 100%;
+  margin: 0 auto;
 }
 .nosotros-content h1 {
   text-align: center;
@@ -161,30 +162,46 @@ p.parrafo1{
 .pases{
   background: #00AFA5;
 }
+.pases-content{
+  max-width: 1300px;
+  height: 100%;
+  margin: 0 auto;
+}
+
 .pases-horarios{
   background: #00AFA5;
  
 }
 .pases-horarios h1 {
   margin-left: 150px;
+  color: #F8F1C5;
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
 }
 .pases-horarios h2{
   margin-left: 150px;
   margin-top: 30px;
+  color: #F8F1C5;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
 }
 .pases-horarios .pases_4{
   font-family: "Roboto", sans-serif;
   margin-left: 150px;
+  font-size: 20px;
+  color: #F8F1C5;
 }
 .pases-horarios .pases_3{
   font-family: "Roboto Condensed", sans-serif;
   margin-left: 150px;
+  font-size: 20px;
+  color: #F8F1C5;
 }
 .pases-img button{
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 200;
   width: 230px;
-  height: 64px;
+  height: 54px;
   font-size: 22px;
   color: #F8F1C5;
   background-color: #9D1980;
@@ -192,7 +209,10 @@ p.parrafo1{
   border: none;
   margin-top: 10px;
   margin-left: 160px;
+  
 }
+
+
 #servicios{
   background: #00AFA5;
   
@@ -205,13 +225,22 @@ p.parrafo1{
   margin-left: 150px;
   color: #F8F1C5;
   font-family: "Roboto", sans-serif;
-  font-size: 35px;
+  font-size: 55px;
 }
 .servicios-content-info h3{
   margin-left: 150px;
   color: #F8F1C5;
   font-family: "Roboto", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
+}
+.card-cumpleaños{
+  background: #9D1980;
+  margin-left: 150px;
+  border-radius: 10px;
+}
+.card-img-top{
+  width: 150px;
+  margin-left: 40px;
 }
 
 
