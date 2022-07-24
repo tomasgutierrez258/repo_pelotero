@@ -237,10 +237,17 @@ p.parrafo1{
   background: #9D1980;
   margin-left: 150px;
   border-radius: 10px;
+  
 }
 .card-img-top{
-  width: 150px;
+  width: 120px;
   margin-left: 40px;
 }
+.card-body-cumple{
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
 
 
