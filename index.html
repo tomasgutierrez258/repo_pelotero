@@ -15,21 +15,28 @@
     <title>AlosCaños</title>
   </head>
   <body>
-    <header class="header-barra">
-      <div class="header">
 
-        <img src="img/logo_inicio_modificado.png" alt="pelotero" width="50px" class="logo-header" />
-      <nav class="header-navegacion">
-        <ul>
-          <li><a href="#" class="clase1">SOBRE NOSOTROS</a></li>
-          <li><a href="#" class="clase2">PASE DIARIOS</a></li>
-          <li><a href="#" class="clase3">SERVICIOS</a></li>
-          <li><a href="#" class="clase4">CONTACTO</a></li>
-        </ul>
-      </nav>
+    <header class="p-1 text-bg">
+      <div class="container">
+        
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="barra-header">
+            <svg class="#" width="40" height="32"  aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+            
+          </a>
+          <img src="img/logo_inicio_modificado.png" alt="pelotero" width="50px" class="logo-header" />
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 " style="margin-right: 80px;">
+            <li><a href="#nosotros" class="nav-link  text-white">SOBRE NOSOTROS</a></li>
+            <li><a href="#pases" class="nav-link  text-white">PASES DIARIOS</a></li>
+            <li><a href="#servicios" class="nav-link  text-white">SERVICIOS</a></li>
+            <li><a href="#contactos" class="nav-link  text-white">CONTACTO</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="b-example-divider"></div>
     </header>
+  
+    <div class="b-example-divider"></div>
+
 
     <section id="main">
       <div class="main-content">
@@ -38,42 +45,62 @@
           <h1>Veni a jugar!</h1>
           <p>Tenemos pases diarios para que vengas a jugar cuando quieras.</p>
           <p>Saca tu turno y veni cualquier dia de la semana!</p>
-          <button>RESERVA TU PASE</button>
+          <a href="https://darturnos.com/aLosCanios"><button>RESERVA TU PASE</button></a>
         </div>
       </div>
     </section>
 
+
     <section id="nosotros">
       <div class="nosotros-content">
         <h1>Nuestro Multiespacio</h1>
+      </div>
+
+        <div class="text-center">
+          <img src="img/cartel_inicio.png"  alt="...">
           <p class="text-nosotros">A Los Caños es un salón de juegos y ﬁestas, un espacio pensado <br> para la  diversión de los chicos y el disfrute de los grandes. <br> Concebido como un "potrero moderno", la propuesta es alejarnos <br> por  un ratito de la tecnología y disfrutar de juegos que involucren <br> el movimiento y la socialización.</p>
         </div>
-        <div class="img-icon">        
-        <img src="img/futbol.png" alt="pelotero" class="icon-nosotros">
-        <img src="img/disco.png" alt="pelotero" class="icon-nosotros">
-        <img src="img/pelotero.png" alt="pelotero" class="icon-nosotros">
-        <img src="img/cafeteria.png" alt="pelotero" class="icon-nosotros">
-        <img src="img/blanda.png" alt="pelotero" class="icon-nosotros">
-      </div>
-        <div class="icon">
-          <img src="img/angulo-pequeno-hacia-abajo.png" alt="pelotero" class="icon-nosotros">
-          <img src="img/angulo-pequeno-hacia-abajo.png" alt="pelotero" class="icon-nosotros">
-          <img src="img/angulo-pequeno-hacia-abajo.png" alt="pelotero" class="icon-nosotros">
-          <img src="img/angulo-pequeno-hacia-abajo.png" alt="pelotero" class="icon-nosotros">
-          <img src="img/angulo-pequeno-hacia-abajo.png" alt="pelotero" class="icon-nosotros">
-        </div>
 
-      
-        <div class="parrafo-nosotros">
-        <p class="parrafo1">Actividades en la <br> canchita</p>
-        <p class="parrafo2">Juegos con <br> música infantil <br> en la disco</p>
+      <div class="container img-center">
+        <div class="row align-items-start">
+          <div class="col logo-multiespacio">
+            <img src="img/futbol.png" alt="pelotero" class="icon-nosotros"   width="70"><br>
+            <p> <b>Canchita</b> </p>
+            <img src="img/angulo-pequeno-hacia-abajo.png" alt="pelotero" class="icon-nosotros" width="70"><br>
+            <p class="parrafo1">Actividades en la <br> canchita</p>
+          </div>
+          <div class="col logo-multiespacio">
+            <img src="img/disco.png" alt="pelotero" class="icon-nosotros"  width="70"><br>
+            <p> <b>Disco</b> </p>
+            <img src="img/angulo-pequeno-hacia-abajo.png" alt="pelotero" class="icon-nosotros" width="70">
+            <p class="parrafo2">Juegos con <br> música infantil <br> en la disco</p>
+          </div>
+          <div class="col logo-multiespacio">
+            <img src="img/pelotero.png" alt="pelotero" class="icon-nosotros" width="70"><br>
+            <p> <b>Laberinto</b> </p>
+        <img src="img/angulo-pequeno-hacia-abajo.png" alt="pelotero" class="icon-nosotros" width="70">
         <p class="parrafo3">Un laberinto <br> intermedio (18 <br> meses a 4 años)</p>
-        <p class="parrafo4">Tres salones con <br> mesas para los <br> grandes (uno por <br> piso)</p>
-        <p class="parrafo5"> El "Mini" (para <br> bebés de 0 a 18 <br> meses)</p>
-      </div>
-        
-   
+          </div>
+          <div class="col logo-multiespacio">
+            <img src="img/cafeteria.png" alt="pelotero" class="icon-nosotros" width="70" ><br>
+            <p> <b>Salones</b> </p>
+            <img src="img/angulo-pequeno-hacia-abajo.png" alt="pelotero" class="icon-nosotros" width="70" >
+            <p class="parrafo4" >Tres salones con <br> mesas para los <br> grandes (uno por <br> piso)</p>
+          </div>
+          <div class="col logo-multiespacio">
+            <img src="img/blanda.png" alt="pelotero" class="icon-nosotros" width="70"><br>
+            <p > <b>Espacio blando</b> </p>
+            <img src="img/angulo-pequeno-hacia-abajo.png" alt="pelotero" class="icon-nosotros" width="70">
+            <p class="parrafo5"> El "Mini" (para <br> bebés de 0 a 18 <br> meses)</p>
+          </div>
+          
+        </div>
+        </div>
+      
+  
       </section>
+
+
 
 
 <section id="pases">
@@ -98,6 +125,7 @@
       <img src="img/logo_inicio_modificado.png" alt="pelotero" width="250px" style="margin-top:90px;margin-left: 140px;" >
       <button>RESERVA TU PASE</button><br><br><br>
     </div>
+    
   </div>
 </div>
 </div>
