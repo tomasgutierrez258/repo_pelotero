@@ -85,9 +85,11 @@
   border: none;
   margin-top: 5px;
 }
+
+
 .container-wspp{
   background-color: rgb(30, 120, 30);
-  border: 0.5px solid white;
+  border: 0.5px solid rgb(35, 74, 35);
   position: fixed;
   z-index: 999;
   border-radius: 50%;
@@ -332,13 +334,13 @@
 .content-info-contactos .contactos-buenos{
   font-family: "Roboto Condensed", sans-serif;
   font-size: 24px;
-  margin-left: 230px;  
+  margin-left: 100px;  
 }
 .llamanos-contactos{
   display: flex;
 }
 .text-numer-contactos p{
-  margin-left: 350px;
+  margin-left: 210px;
 }
 
 .footer-derechos{
