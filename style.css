@@ -248,16 +248,18 @@ width: 100%;
   color: #F8F1C5;
   font-family: "Roboto", sans-serif;
   font-size: 55px;
-  text-align: center;
+  text-align: left;
   padding-top: 10px;
+  margin-left: 120px;
   margin-bottom: 30px;
 }
 .servicios-content-info p{
+  display: flex;
   color: #F8F1C5;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
-  text-align: center;
-  padding-right: 3%;
+  text-align: left;
+  margin-left: 110px;
 }
 
 .servicios-content{
@@ -265,29 +267,28 @@ width: 100%;
   font-family: "Roboto", sans-serif;
 }
 .container-servicios{
-  display: block;
+  display:flex;
   justify-content: center;
   padding-bottom: 50px;
+  
 }
-.align-items-start{
-  margin-right: 5px;
-}
+
 .cumpleaños{
-  display: block;
+  display: flex;
   justify-content: center;
-  padding-left: 16%;
 }
  .card-cumpleaños{
-  width: 300px;
+  width: 350px;
   background: #E10857;  
   border-radius: 10px;
   padding-bottom: 15px;
   border: 2px solid aliceblue;
   border-style: groove;
+  
 }
  .card-img-top{
   width: 80px;
-  margin-left: 100px;
+  margin-left: 130px;
   padding-top: 15px;
 }
 
@@ -306,38 +307,37 @@ width: 100%;
   color: #F8F1C5;
   width: 200px;
   border: 2px solid aliceblue;
-  
+
 }
+
 .adultos{
-  display: block;
+  display: flex;
   justify-content: center;
-  padding-left: 16%;
- 
+
 }
 .card-adultos{
-  width: 300px;
+  width: 350px;
   background: #2C2B2A;
   border-radius: 10px;
   padding-bottom: 200px;
   border: 2px solid aliceblue;
   border-style: groove;
+  
 }
 .talleres{
-  display: block;
+  display: flex;
   justify-content: center;
-  padding-left: 16%;
+  
   
 }
 .card-taller{
-  width: 300px;
+  width: 350px;
   background: #E10857;  
   border-radius: 10px;
   padding-bottom: 15px;
   border: 2px solid aliceblue;
   border-style: groove;
-  
 }
-
 
 
 #contactos{
