@@ -156,13 +156,17 @@
   padding-top: 25px;
 }
 .img-center{
-  padding-left: 150px;
+  display: flex;
+  justify-content: center;
 } 
+
 .logo-multiespacio {
   font-family: "Roboto Serif";
   font-size: 20px;
   color: #2C2B2A;
   justify-content: space-between;
+  padding-right: 25px;
+  
 }
 
 
