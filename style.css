@@ -131,14 +131,18 @@
 .contenedor{
   width: 100%;
   position: relative;
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
 }
-/* @media (max-width: 990px)
-.contenedor{
-  border-radius:30px;
-  margin-bottom: 1em;
-} */
+.contenedor img{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+
+
 .centrado{
   position: absolute;
   top: 50%;
