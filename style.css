@@ -87,7 +87,7 @@
 }
 
 
-.container-wspp{
+/* .container-wspp{
   background-color: rgb(30, 120, 30);
   border: 0.5px solid rgb(35, 74, 35);
   position: fixed;
@@ -104,7 +104,7 @@
 }
 .boton{
   width: 50px;
-}
+} */
 
 
 
@@ -185,14 +185,13 @@
 }  */
 
 .logo-multiespacio {
+  display: flex;
+  
   font-family: "Roboto Serif";
   font-size: 20px;
   color: #2C2B2A;
-  justify-content: space-between;
-  padding-right: 25px;
   
 }
-
 
 
 
