@@ -1,113 +1,136 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>AlosCaños</title>
-  </head>
-  <body>
-
-    <header class="p-1 text-bg">
-      <div class="container">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+           <img src="img/logo_inicio_modificado.png" alt="">
+            <button class="header-btn">=</button>
+        </div>
         
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <a href="/" class="barra-header">
-            <svg class="#" width="40" height="32"  aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-            
-          </a>
-          <img src="img/logo_inicio_modificado.png" alt="pelotero" width="50px" class="logo-header" />
-          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 " style="margin-right: 80px;">
-            <li><a href="#nosotros" class="nav-link  text-white">SOBRE NOSOTROS</a></li>
-            <li><a href="#pases" class="nav-link  text-white">PASES DIARIOS</a></li>
-            <li><a href="#servicios" class="nav-link  text-white">SERVICIOS</a></li>
-            <li><a href="#contactos" class="nav-link  text-white">CONTACTO</a></li>
-          </ul>
-        </div>
-      </div>
+        <nav class="header-menu">
+            <ul>
+                <li><a href="#nosotros">SOBRE NOSOTROS</a></li>
+                <li><a href="#pases">PASES DIARIOS</a></li>
+                <li><a href="#servicios">SERVICIOS</a></li>
+                <li><a href="#contactos">CONTACTO</a></li>
+            </ul>            
+        </nav>
     </header>
-  
-    <div class="b-example-divider"></div>
 
-
-    <section id="main">
-      <div class="main-content">
-        <div class="main-content-info">
-          <img src="img/logo_inicio.png" alt="pelotero" width="372px" />
-          <h1>Veni a jugar!</h1>
-          <p>Tenemos pases diarios para que vengas a jugar cuando quieras.</p>
-          <p>Saca tu turno y veni cualquier dia de la semana!</p>
-          <a href="https://darturnos.com/aLosCanios"><button>RESERVA TU PASE</button></a>
-        </div>
-      </div>
-    </section>
-
-    <!-- <div class="container-wspp">
-      <a href="https://api.whatsapp.com/send/?phone=5491126511694&text&app_absent=0" target="_blank">
-    <img class="boton" src="img/icono.wspp.png">
-  </a>  
-    </div> -->
+    <main class="main">
+        <section class="main-img">
+            <img src="img/logo_inicio.png" alt="">
+            <div class="main-text">
+                <h1><b> Veni a jugar!</b></h1>
+                <h3>Tenemos pases diarios para que vengas a jugar cuando quieras. <br>
+                Saca tu turno y veni cualquier dia de la semana!</h3>
+                <a href="https://darturnos.com/aLosCanios"><button><b>RESERVA TU PASE</b></button></a>
+            </div>
+        </section>
+    </main>
 
     <section id="nosotros">
-      <div class="nosotros-content">
-        <h1>Nuestro Multiespacio</h1>
-        <div class="col-md-12 contenedor">
-          <img src="img/cartel_inicio.png"  />
-      </div>
-
-        <div class="container">
-          <div class="logo-multiespacio" style="padding-left: 15px;">
-            <img src="img/futbol.png" alt="pelotero" class="icon-nosotros"   width="40px" height="60px"><br>
-              <p> <b>Canchita</b> </p>
-              <img src="img/angulo-pequeno-hacia-abajo.png" alt="pelotero" class="icon-nosotros"  width="40px" height="60px"><br>
-              <p class="parrafo1">Actividades en la canchita</p>
+        <h1> Nuestro Multiespacio</h1>
+        <div class="nosotros-img">
+            <img src="img/cartel_inicio1.png" alt="">
+        </div>
+            
+        
+    <div class="container multiespacio">
+        <div class="card-content card1">
+          <div class="col icon-nosotros" >
+            <img src="img/futbol.png" alt="pelotero"   >
           </div>
-          <div class="logo-multiespacio" >
-            <img src="img/disco.png" alt="pelotero" class="icon-nosotros"  width="70" height="70px"><br>
-            <p> <b>Disco</b> </p>
-            <img src="img/angulo-pequeno-hacia-abajo.png" alt="pelotero" class="icon-nosotros" width="40px" height="60px">
-            <p class="parrafo2">Juegos con <br> música infantil <br> en la disco</p>
+          <div class="col card-text">
+            <p><b>Canchita</b></p>
           </div>
-          <div class="col logo-multiespacio" style="padding-left: 15px;">
-            <img src="img/pelotero.png" alt="pelotero" class="icon-nosotros" width="70" height="70px"><br>
-            <p> <b>Laberinto</b> </p>
-        <img src="img/angulo-pequeno-hacia-abajo.png" alt="pelotero" class="icon-nosotros" width="70">
-        <p class="parrafo3">Un laberinto  intermedio <br> (18 meses a 4 años)</p>
+          <div class="col icon-nosotros">
+            <img src="img/angulo-pequeno-hacia-abajo.png" alt="" >
           </div>
-          <div class="col logo-multiespacio" style="padding-left: 15px;">
-            <img src="img/cafeteria.png" alt="pelotero" class="icon-nosotros" width="70" height="70px"><br>
-            <p> <b>Salones</b> </p>
-            <img src="img/angulo-pequeno-hacia-abajo.png" alt="pelotero" class="icon-nosotros" width="70" height="70px" >
-            <p class="parrafo4" >Tres salones con <br> mesas para los grandes  <br> (uno por piso)</p>
-          </div>
-          <div class="logo-multiespacio" style="padding-left: 15px;">
-            <img src="img/blanda.png" alt="pelotero" class="icon-nosotros" width="70" height="70px"><br>
-            <p > <b>Espacio blando</b> </p>
-            <img src="img/angulo-pequeno-hacia-abajo.png" alt="pelotero" class="icon-nosotros" width="70">
-            <p class="parrafo5"> El "Mini" <br> (para  bebés de 0 a 18 <br> meses)</p>
+          <div class="col card-text" style="padding-right: 7%;">
+            <p>Actividades  en <br>  la  canchita</p>
           </div>
         </div>
+        <div class="card-content card2">
+            <div class="col icon-nosotros" >
+                <img src="img/disco.png" alt="pelotero" >
+            </div>
+            <div class="col card-text">
+                <p><b>Disco</b></p>
+            </div>
+            <div class="col icon-nosotros">
+              <img src="img/angulo-pequeno-hacia-abajo.png" alt="" >
+            </div>
+            <div class="col card-text">
+                <p>Juegos con música <br> infantil  en la disco</p>
+            </div>
+          </div>
+          <div class="card-content card3">
+            <div class="col icon-nosotros" >
+                <img src="img/pelotero.png" alt="pelotero" >
+            </div>
+            <div class="col card-text">
+                <p> <b>Laberinto</b> </p>
+            </div>
+            <div class="col icon-nosotros">
+              <img src="img/angulo-pequeno-hacia-abajo.png" alt="" >
+            </div>
+            <div class="col card-text">
+                <p>Un laberinto intermedio  <br> (18  meses  a 4 años)</p>
+            </div>
+          </div>
+          <div class="card-content card4">
+            <div class="col icon-nosotros" >
+                <img src="img/cafeteria.png" alt="pelotero" >
+            </div>
+            <div class="col card-text">
+                <p> <b>Salones</b> </p>
+            </div>
+            <div class="col icon-nosotros">
+              <img src="img/angulo-pequeno-hacia-abajo.png" alt="" >
+            </div>
+            <div class="col card-text">
+                <p >Tres salones con <br> mesas para los <br>grandes (uno por  piso)</p>
+            </div>
+          </div>
+          <div class="card-content card5">
+            <div class="col icon-nosotros" >
+                <img src="img/blanda.png" alt="pelotero" >
+            </div>
+            <div class="col card-text">
+                <p ><b>Espacio <br> blando</b></p>
+            </div>
+            <div class="col icon-nosotros ">
+              <img src="img/angulo-pequeno-hacia-abajo.png" alt="" >
+            </div>
+            <div class="col card-text">
+                <p> El "Mini" (para  bebés <br> de 0 a 18  meses)</p>
+            </div>
+          </div>
+      </div>
+              
+    </section>
 
-      </section>
 
-      
+    
+
+    
 
 
-<section id="pases">
-  <img src="img/nubes.png" alt="pelotero" width="100%" >
 
-  <div class="container pases-horarios">
-    <div class="row ">
-      <div class="col-md-5" style="text-align:center;">
-        <h1><b>Veni a jugar!</b></h1>
+    <section id="pases">
+        <img src="img/nubes.png" alt="pelotero" width="100%"  >
+        <div class="container pases-horarios">
+            <div class="g-col-6 veni-jugar">
+      <h1><b>Veni a jugar!</b></h1>
       <h3 class="pases_3">Nuestros turnos de juegos son de 2hs y en los siguientes horarios:</h3>
       <h2> <i>Turnos:</i> </h2>
       <h3 class="pases_3">12:00 a 14:00</h3>
@@ -115,42 +138,29 @@
       <h3 class="pases_3">16:30 a 18:30</h3>
       <h3 class="pases_3">18:45 a 20:45</h3>
       <h3 class="pases_4">A partir de las 14:30 se habilitara 1er y 2do piso (pelotero,disco y canchita)</h3>
-      </div>
-      <div class="col-md-7 pases-img">
-        <img src="img/logo_inicio_modificado.png" alt="pelotero" width="300px" height="250px"> 
-        <a href="https://darturnos.com/aLosCanios"><button>RESERVA TU PASE</button></a>
-      </div>
-    </div>
-    </div>
+            </div>
+
+            <div class="g-col-6 reserva-pase">
+                <img src="img/logo_inicio_modificado.png" alt="">
+                <a href="https://darturnos.com/aLosCanios"><button>RESERVA TU PASE</button></a>
+            </div>
+          </div>
+          
+    </section>
     
-</section>
 
 
+    <section id="servicios">
+        <img src="img/banderines1.png" alt="" width="100%" >
+        <div class="fiesta">
+            <h1><b>Organiza tu fiesta!</b></h1>
+            <h3>Contamos con salones de juegos y fiestas para grandes y chicos.</h3>
+        </div>
 
 
-<section id="servicios">
-  <div class="col-md-12 banderines"></div>
- 
-
-  <div class="col-md-6 servicios-content-info">
-    <h1><b>Organiza tu fiesta!</b></h1> 
-  </div>
-</div>
-  <div class="col-md-12">
-    <div class="col-md-12 servicios-content-info">
-      <p>Contamos con salones de juegos y fiestas  para grandes y chicos</p><br>
-    </div>
-  </div>
-   
-
-
-
-
-
+        
 <div class="container-servicios">
-    <div class="row g-3">
-      
-        <div class="col-12 col-lg-4 cumpleaños">
+        <div class="col  cumpleaños">
           <div class="card-cumpleaños" >
             <img src="img/cumple.png" class="card-img-top" alt="pelotero" >
             <h5 class="card-body-cumple">Cumpleaños</h5>
@@ -159,15 +169,37 @@
             <p style="color:white;padding-left: 15px;"> <b>Disponible</b> <br> Durante todo el año </p> 
             <p style="color:white;padding-left: 15px;"> <b>Reserva </b> <br>Con reserva previa  </p>
             <p style="color:white;padding-left: 15px;"> <b>Contamos con:</b> <br> Animadores ,musica,cancha de futbol,catering,piñata,suvenirs y mucho mas!</p> <br>
-            <div class="card-body">
-              <button type="button" class="boton-cumple" >Mas info</button>
-            </div>
+           
+              <input type="checkbox" id="btn-modal">
+              <label for="btn-modal" class="lbl-modal"><b>Mas info</b></label>
+              
+              <div class="modal">
+                <div class="contenedor">
+                 <h1>Cumpleaños</h1>
+                 <label for="btn-modal">Cerrar</label> <br>
+                 <hr>
+                 
+                 <div class="contenido">
+                   <h3>Animación:</h3> 
+                   <p>Nuestras animaciones se adaptan a la edad y características del grupo. Incluyen un momento de juego libre en el pelotero* (donde entran con los animadores y con pulsera identificatoria), juegos con música infantil en la disco y actividades en la canchita (ambos espacios se cierran para el cumple). Pueden elegir el tipo de juegos y qué actividad/es tendrán más tiempo dentro del cumple.</p>
+                    
+                    <h3>Música:</h3> 
+                    <p>En A Los Caños promovemos el cuidado de contenidos teniendo en cuenta la edad. Por eso proponemos música infantil u otros géneros que sean apropiados para chicos.
+                    </p>
+                    <img src="img/chicos.jpg" alt="" width="230px" height="150px">
+                 </div>     
+             </div>
+           </div>
+
+
           </div>
         </div>
       
 
+       
+
       
-        <div class="col-12 col-lg-4 adultos">
+        <div class="col adultos">
           <div class="card-adultos" >
             <img src="img/adultos_1.png" class="card-img-top" alt="pelotero" >
             <div class="card-body">
@@ -180,7 +212,7 @@
       
 
       
-        <div class="col-12 col-lg-4 talleres" >
+        <div class="col talleres" >
           <div class="card-taller">
           <img src="img/talleres.png" class="card-img-top" alt="pelotero" >
           <div class="card-body">
@@ -191,100 +223,111 @@
           <p style="color:white;padding-left: 15px;"> <b>Disponible</b> <br> En vacaciones de invierno y verano </p> 
           <p style="color:white;padding-left: 15px;"> <b>Reserva </b> <br>Con reserva previa de un pase diario  </p>
           <p style="color:white;padding-left: 15px;"> <b>Contamos con:</b> <br> Talleres deportivo, Minuto para ganar, <br> Taller de pintura, mascaras, Fiesta del sombrero y mucho mas!</p>
-          <div class="card-body">
-            <button type="button" class="boton-cumple" >Mas info</button>
-        </div>
+         <input type="checkbox" id="btn-modal-taller">
+          <label for="btn-modal-taller" class="lbl-modal-taller"><b>Mas info</b></label> 
+          
+          <div class="modal-taller">
+            <div class="contenedor-taller">
+             <h2 >Talleres</2>
+             <label for="btn-modal-taller">Cerrar</label> <br>
+             <hr>
+             
+             <div class="contenido-taller">
+               <h3>Animación:</h3> 
+               <p>Nuestras animaciones se adaptan a la edad y características del grupo. Incluyen un momento de juego libre en el pelotero* (donde entran con los animadores y con pulsera identificatoria), juegos con música infantil en la disco y actividades en la canchita (ambos espacios se cierran para el cumple). Pueden elegir el tipo de juegos y qué actividad/es tendrán más tiempo dentro del cumple.</p>
+                
+                <h3>Música:</h3> 
+                <p>En A Los Caños promovemos el cuidado de contenidos teniendo en cuenta la edad. Por eso proponemos música infantil u otros géneros que sean apropiados para chicos.
+                </p>
+                <img src="img/chicos.jpg" alt="" width="230px" height="150px">
+             </div>     
+         </div>
+       </div> 
   
       </div>
     </div>
     </div>
   </div>
-    </section>
+    </section>   
+
+
+
+    <section id="contactos">
+        <div class="container">
+          <div class="row">
+            <div class="donde-estamos">
+              <h1><b>¿Donde estamos?</b></h1>
+            </div>
+              <div class="col-md-12 mapa-contactos">
+                <img src="" alt=""><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13132.32015540238!2d-58.4602598!3d-34.6274176!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x68b86b6abb3f57ac!2sA%20los%20Ca%C3%B1os!5e0!3m2!1ses-419!2sar!4v1658781950538!5m2!1ses-419!2sar"
+                 style="border: 2px solid rgb(99, 91, 91);opacity: 0.8; width: 90%; height: 350px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa-contactos"></iframe>
+              </div>
+            
+              <div class="informacion-contacto">
+                <div class="text-contactos">
+                    <h4>Gavilán 52, CP1406 - Flores</h4>
+                    <h4 class="text-contactos2">Buenos Aires, Argentina</h4> 
+                </div>      
+      
+                <div class="redes-sociales">
+                  <div >
+                    <p><b>Redes sociales</b></p>    
+                  </div> 
+                  <div>
+                    <a href="https://www.facebook.com/peloteroaloscanios/"><img src="img/Facebook.png" alt="" width="50px" height="50px" style="margin-right:3px ; margin-bottom: 5px;"  ></a>
+                    <a href="https://www.instagram.com/aloscanios/?hl=es"><img src="img/instagram.png" alt="" width="60px" height="65px" ></a>
+                  </div>
+                </div>
+      
+                <div class="redes-contacto">
+                    <h2><b>Contactanos</b></h2>         
+                    <h2 class="contactanos"><b> 011 15-2651-1694</b></h2>   
+                    <h2 class="mail-contacto"><b>consulta@aloscanios.com.ar</b></h2> 
+                </div>
+              </div>
+            
+  
+            
+         
+        </div>
+
+      </section>
+  
+      <footer id="footer">
+        <div class="container footer-derechos">
+          <div class="row">
+            <div class="footer-derechos">          
+                <p class="text-footer">A los caños 2022 &copy- Todos los derechos reservados</p>
+            </div>
+          </div>
+        </div class="b-example-divider">
+      </footer>
+
+
+      <div class="container-wspp">
+        <a href="https://api.whatsapp.com/send/?phone=5491126511694&text&app_absent=0" target="_blank">
+      <img class="boton" src="img/icono.wspp.png">
+    </a>  
+      </div>
 
  
-      <section id="contactos">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 donde-estamos">
-            <h1><b>¿Donde estamos?</b></h1>
-          </div>
-            <div class="col-md-12 mapa-contactos">
-              <img src="" alt=""><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13132.32015540238!2d-58.4602598!3d-34.6274176!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x68b86b6abb3f57ac!2sA%20los%20Ca%C3%B1os!5e0!3m2!1ses-419!2sar!4v1658781950538!5m2!1ses-419!2sar"
-               style="border: 2px solid rgb(99, 91, 91);opacity: 0.8; width: 90%; height: 350px;display: flex;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa-contactos"></iframe>
-            </div>
-          
-          <div class="col-md-12 text-contactos">
-            <div class="col-md-6 text-direccion">
-              <h4>Gavilán 52, CP1406 - Flores</h4>
-            </div>
-              <div class="col-md-6">
-                <h4>Buenos Aires, Argentina</h4> 
-              </div>
-          </div>      
 
-          <div class="col-md-12 redes-sociales">
-            <div class="col-md-6 llamanos-contactos">
-              <p><b>Redes sociales</b> </p>    
-            </div> 
-            <div class="col-md-6 text-numer-contactos">
-              <p><b>Contactanos</b></p>
-            </div>
-          </div>
+    <script>
+        const header_btn = document.querySelector('.header-btn')
+        const header_menu = document.querySelector('.header-menu')
+        header_btn.addEventListener('click', () =>{
+         if (header_menu.style.display != 'block' ){
+            header_menu.style.display = 'block'
+            header_btn.innerHTML = 'x'
+         } else {
+            header_menu.style.display = 'none'
+            header_btn.innerHTML = '='
+            }        
+        })
 
-          <div class="col-md-12 icon-contacto">
-            <div class="col-md-6 face-inst-icon">
-              <a href="https://www.facebook.com/peloteroaloscanios/"><img src="img/Facebook.png" alt="" width="50px" height="50px" style="margin-right:3px ;"  ></a>
-              <a href="https://www.instagram.com/aloscanios/?hl=es"><img src="img/instagram.png" alt="" width="60px" height="60px" ></a>
-            </div>
-            <div class="col-md-6 num-contacto">
-              <p>011 15-2651-1694</p>   
-            </div>     
-          </div>
-
-          <div class="col-md-12 mail-contacto">
-            <div class="col-md-3">
-            </div> 
-            <div class="col-md-9">
-              <p>consulta@aloscanios.com.ar</p> 
-            </div>        
-          </div>
-
-        </div>
-      </div>
-
-     
-      
-    
-   
-      
+    </script>
 
 
 
-    </section>
-
-
-
-
-
-    
-      
-   
-
-    <footer id="footer">
-    <div class="container footer-derechos">
-      <div class="row">
-        <div class="footer-derechos">          
-            <p class="text-footer">A los caños 2022 &copy- Todos los derechos reservados</p>
-        </div>
-      </div>
-    </div class="b-example-divider">
-  </footer>
-
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+</body>
 </html>
